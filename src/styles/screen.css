@@ -43,10 +43,6 @@ a:hover {
     display: none
 }
 
-article>h1:first-child {
-    display: none
-}
-
 article h1,
 article h2,
 article h3,
@@ -111,4 +107,9 @@ article iframe {
     .content, .text-content {
         width: 30em
     }
+}
+
+.code {
+    font-family: monospace, monospace;
+    font-size: 1em;
 }
