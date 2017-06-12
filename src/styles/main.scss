@@ -1,0 +1,25 @@
+// normalize.css
+@import "~normalize.css";
+
+// surface imports and customization
+// Colors
+@import "~surface/src/scss/_imports/_colors.scss";
+$primary: #e67e22;
+$secondary: $asbestos;
+$accent: #ff5722;
+
+@import "~surface/src/scss/buttons.scss";
+@import "~surface/src/scss/form.scss";
+
+@import 'screen.css';
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#universe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
