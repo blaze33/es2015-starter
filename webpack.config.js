@@ -66,11 +66,12 @@ module.exports = function (env) {
       }),
       new PurifyCSSPlugin({
         paths: glob.sync(path.join(__dirname, 'src/*.html'))
-      }),
-      new CopyWebpackPlugin([{
-        from: 'src/js/wasm/*.wasm',
-        to: 'wasm/[name].wasm'
-      }])
+      })
+      // }),
+      // new CopyWebpackPlugin([{
+      //   from: 'src/js/wasm/*.wasm',
+      //   to: 'wasm/[name].wasm'
+      // }])
     ],
     devServer: {
       host: '0.0.0.0',
