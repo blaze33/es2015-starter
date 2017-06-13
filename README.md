@@ -1,11 +1,11 @@
-# ES6 app Webpack
+# ES2015 starter kit
 
 ## Quickstart
 
-Clone this repo to start a new ES6 app with webpack
+Clone this repo to start a new ES2015 app with webpack
 
 ```
-git clone git@github.com:blaze33/es6-starter.git my-app
+git clone git@github.com:blaze33/es2015-starter.git my-app
 cd my-app
 yarn
 npm run serve
