@@ -3,7 +3,7 @@ const glob = require('glob')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const PurifyCSSPlugin = require('purifycss-webpack')
-const CopyWebpackPlugin = require('copy-webpack-plugin')
+// const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = function (env) {
   const extractSass = new ExtractTextPlugin({
