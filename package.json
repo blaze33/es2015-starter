@@ -23,7 +23,9 @@
     "webpack",
     "starter",
     "template",
-    "sass"
+    "sass",
+    "starter-kit",
+    "starter-template"
   ],
   "author": {
     "name": "Maxime Rouyrre",
