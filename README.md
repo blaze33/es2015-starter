@@ -13,7 +13,7 @@ npm run serve
 
 Now start editing your files and the webpage that opened will reload.
 
-<div style="text-align:center"><img src ="docs/media/es2015-starter-demo.gif" /></div>
+<div style="text-align:center"><img src="docs/media/es2015-starter-demo.gif" /></div>
 
 ## Tests
 
